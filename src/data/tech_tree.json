@@ -1,0 +1,420 @@
+{
+  "UI / UX": [
+    {
+      "name": "OpenScript",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "1995",
+      "endYear": "1995"
+    },
+    {
+      "name": "CSS",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "1996",
+      "endYear": ""
+    },
+    {
+      "name": "HTML",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "1996",
+      "endYear": ""
+    },
+    {
+      "name": "Visual Basic",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "1998",
+      "endYear": "2001"
+    },
+    {
+      "name": "DynAPI",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2002",
+      "endYear": "2004"
+    },
+    {
+      "name": "Velocity",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "2002",
+      "endYear": "2004"
+    },
+    {
+      "name": "Prototype.js",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2007",
+      "endYear": "2007"
+    },
+    {
+      "name": "Eclipse SWT",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2008",
+      "endYear": "2011"
+    },
+    {
+      "name": "jQuery",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2008",
+      "endYear": "2011"
+    },
+    {
+      "name": "Backbone.js",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2011",
+      "endYear": "2014"
+    },
+    {
+      "name": "Selenium",
+      "type": "Framework,Automation",
+      "tree": "UI / UX",
+      "startYear": "2012",
+      "endYear": ""
+    },
+    {
+      "name": "CoffeeScript",
+      "type": "Language",
+      "tree": "UI / UX",
+      "startYear": "2012",
+      "endYear": "2013"
+    },
+    {
+      "name": "Jasmine",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2012",
+      "endYear": "2014"
+    },
+    {
+      "name": "Karma",
+      "type": "Framework,Automation",
+      "tree": "UI / UX",
+      "startYear": "2012",
+      "endYear": "2014"
+    },
+    {
+      "name": "AngularJS",
+      "type": "Framework",
+      "tree": "UI / UX",
+      "startYear": "2015",
+      "endYear": "2017"
+    },
+    {
+      "name": "React",
+      "type": "Framework",
+      "tree": "UI / UX",
+      "startYear": "2018",
+      "endYear": ""
+    },
+    {
+      "name": "Jest",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2018",
+      "endYear": "2021"
+    },
+    {
+      "name": "D3.js",
+      "type": "Library",
+      "tree": "UI / UX",
+      "startYear": "2020",
+      "endYear": "2020"
+    }
+  ],
+  "UI / UX,Backend": [
+    {
+      "name": "JavaScript",
+      "type": "Language",
+      "tree": "UI / UX,Backend",
+      "startYear": "1996",
+      "endYear": ""
+    },
+    {
+      "name": "TypeScript",
+      "type": "Language",
+      "tree": "UI / UX,Backend",
+      "startYear": "2018",
+      "endYear": ""
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Sinclair BASIC",
+      "type": "Language",
+      "tree": "Backend",
+      "startYear": "1984",
+      "endYear": "1987"
+    },
+    {
+      "name": "SSI",
+      "type": "Language",
+      "tree": "Backend",
+      "startYear": "1997",
+      "endYear": "1997"
+    },
+    {
+      "name": "PHP",
+      "type": "Language",
+      "tree": "Backend",
+      "startYear": "2000",
+      "endYear": "2007"
+    },
+    {
+      "name": "WSDL",
+      "type": "Language",
+      "tree": "Backend",
+      "startYear": "2005",
+      "endYear": "2005"
+    },
+    {
+      "name": "Java",
+      "type": "Language",
+      "tree": "Backend",
+      "startYear": "2005",
+      "endYear": "2011"
+    },
+    {
+      "name": "JUnit",
+      "type": "Framework",
+      "tree": "Backend",
+      "startYear": "2008",
+      "endYear": "2011"
+    }
+  ],
+  "Backend,Data": [
+    {
+      "name": "Hibernate",
+      "type": "Framework",
+      "tree": "Backend,Data",
+      "startYear": "2006",
+      "endYear": "2008"
+    },
+    {
+      "name": "Python",
+      "type": "Language",
+      "tree": "Backend,Data",
+      "startYear": "2015",
+      "endYear": ""
+    },
+    {
+      "name": "Prisma",
+      "type": "Library",
+      "tree": "Backend,Data",
+      "startYear": "2025",
+      "endYear": ""
+    }
+  ],
+  "Data": [
+    {
+      "name": "SQL",
+      "type": "Language",
+      "tree": "Data",
+      "startYear": "1995",
+      "endYear": ""
+    },
+    {
+      "name": "Microsoft Access",
+      "type": "Database",
+      "tree": "Data",
+      "startYear": "1995",
+      "endYear": "2001"
+    },
+    {
+      "name": "MySQL",
+      "type": "Database",
+      "tree": "Data",
+      "startYear": "2000",
+      "endYear": "2003"
+    },
+    {
+      "name": "XSLT",
+      "type": "Language",
+      "tree": "Data",
+      "startYear": "2008",
+      "endYear": "2008"
+    },
+    {
+      "name": "BigQuery",
+      "type": "Platform",
+      "tree": "Data",
+      "startYear": "2015",
+      "endYear": "2017"
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "Database",
+      "tree": "Data",
+      "startYear": "2017",
+      "endYear": ""
+    },
+    {
+      "name": "Firebase",
+      "type": "Database",
+      "tree": "Data",
+      "startYear": "2021",
+      "endYear": "2021"
+    },
+    {
+      "name": "R",
+      "type": "Language",
+      "tree": "Data",
+      "startYear": "2023",
+      "endYear": ""
+    }
+  ],
+  "Platform": [
+    {
+      "name": "Windows",
+      "type": "OS",
+      "tree": "Platform",
+      "startYear": "1993",
+      "endYear": "2014"
+    },
+    {
+      "name": "Linux",
+      "type": "OS",
+      "tree": "Platform",
+      "startYear": "1996",
+      "endYear": ""
+    },
+    {
+      "name": "Ant",
+      "type": "Build tooling",
+      "tree": "Platform",
+      "startYear": "2006",
+      "endYear": "2011"
+    },
+    {
+      "name": "J2EE",
+      "type": "Platform",
+      "tree": "Platform",
+      "startYear": "2007",
+      "endYear": "2011"
+    },
+    {
+      "name": "macOS",
+      "type": "OS",
+      "tree": "Platform",
+      "startYear": "2011",
+      "endYear": ""
+    },
+    {
+      "name": "RequireJS",
+      "type": "Build tooling",
+      "tree": "Platform",
+      "startYear": "2011",
+      "endYear": "2013"
+    },
+    {
+      "name": "Jenkins",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2011",
+      "endYear": "2015"
+    },
+    {
+      "name": "Grunt",
+      "type": "Build tooling,Automation",
+      "tree": "Platform",
+      "startYear": "2012",
+      "endYear": "2015"
+    },
+    {
+      "name": "Node.js",
+      "type": "Platform",
+      "tree": "Platform",
+      "startYear": "2013",
+      "endYear": ""
+    },
+    {
+      "name": "Browserify",
+      "type": "Build tooling",
+      "tree": "Platform",
+      "startYear": "2014",
+      "endYear": "2014"
+    },
+    {
+      "name": "Ansible",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2015",
+      "endYear": "2017"
+    },
+    {
+      "name": "Gulp",
+      "type": "Build tooling,Automation",
+      "tree": "Platform",
+      "startYear": "2015",
+      "endYear": "2017"
+    },
+    {
+      "name": "AWS",
+      "type": "Platform",
+      "tree": "Platform",
+      "startYear": "2016",
+      "endYear": "2022"
+    },
+    {
+      "name": "Docker",
+      "type": "Platform",
+      "tree": "Platform",
+      "startYear": "2017",
+      "endYear": ""
+    },
+    {
+      "name": "Webpack",
+      "type": "Build tooling",
+      "tree": "Platform",
+      "startYear": "2018",
+      "endYear": ""
+    },
+    {
+      "name": "Google Cloud",
+      "type": "Platform",
+      "tree": "Platform",
+      "startYear": "2021",
+      "endYear": "2021"
+    },
+    {
+      "name": "CircleCI",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2021",
+      "endYear": "2022"
+    },
+    {
+      "name": "Terraform",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2021",
+      "endYear": "2023"
+    },
+    {
+      "name": "GitLab CI",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2022",
+      "endYear": "2023"
+    },
+    {
+      "name": "GitHub Actions",
+      "type": "Automation",
+      "tree": "Platform",
+      "startYear": "2024",
+      "endYear": ""
+    },
+    {
+      "name": "Vite",
+      "type": "Build tooling",
+      "tree": "Platform",
+      "startYear": "2025",
+      "endYear": ""
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "company": "University of Siena",
+    "companyDescription": "Istituto Policattedra di Scienze Chirurgiche, Policlinico Le Scotte.",
+    "title": "Database Administrator",
+    "startYear": "1997",
+    "endYear": "1998",
+    "jobDescription": "After an initial assessment, I plan and execute a migration of medical data from dBase III to Microsoft Access, with data cleaning and normalization."
+  },
+  {
+    "company": "University of Siena",
+    "companyDescription": "Computer Science Laboratory of the Faculty of Mathematical, Physical and Life Sciences.",
+    "title": "Network Administrator",
+    "startYear": "1998",
+    "endYear": "1998",
+    "jobDescription": ""
+  },
+  {
+    "company": "University of Siena",
+    "title": "Media Consultant",
+    "startYear": "2000",
+    "endYear": "2003"
+  },
+  {
+    "company": "Flecta",
+    "companyDescription": "Flecta is a web agency and hosting provider, the first to come out of a technology incubator project sponsored by the University of Siena.",
+    "title": "Web Developer",
+    "startYear": "2001",
+    "endYear": "2004",
+    "jobDescription": "Full stack developer, from database schema design to client-side coding. I spend every day working on web applications of varying complexity, from distance learning systems to webmail to document workflow management. Front-end programming involves some of the first JavaScript cross-browser frameworks (DynAPI 2, DomAPI), as well as Flex/ActionScript for prototyping. The backend is based, depending on the project, on PHP or on a custom internal framework (servlet-based), where Java APIs can be accessed through scripting languages (Velocity and WebMacro)."
+  },
+  {
+    "company": "University of Siena",
+    "companyDescription": "Faculty of Arts",
+    "title": "Lecturer in Applied Computer Science",
+    "startYear": "2001",
+    "endYear": "2005",
+    "jobDescription": "Full responsibility in teaching courses and evaluating students' performance."
+  },
+  {
+    "company": "Praxis Calcolo",
+    "companyDescription": "System Integrator, with a focus on web architectures.",
+    "title": "Software Engineer",
+    "startYear": "2005",
+    "endYear": "2007",
+    "jobDescription": "I am involved from the start in very different projects, often at the same time. I start by helping ING Direct Italy ensure compliance with Sarbanes-Oxley section 404, while also doing database and application design and integration for customers offering services in the fashion business; for the latter, technologies are picked from different fields, from Java's (Ant, Hibernate, Axis, Quartz, Java Advanced Imaging) to Microsoft's (Access/VBA, SQL Server, NSIS). From the second half of 2006 I'm also responsible for the Front-end re-design and back-end maintenance of our PHP-based Intranet websites."
+  },
+  {
+    "company": "Etnoteam",
+    "companyDescription": "Business Solution Aggregator. Etnoteam moves its first steps in 1978, operating in the distributed systems and embedded sectors, to focus on the Web in the 90s.",
+    "title": "Software Engineer",
+    "startYear": "2007",
+    "endYear": "2008",
+    "jobDescription": "I joined a group of about thirty people working on the Vodafone Italy website, and after a few months I am leading a team of four; the team composition keeps changing from a project to the next, so I am often required to engage in mentoring activities with new team members. This is a full-stack role, with the front-end being mainly jQuery-based while the backend is J2EE."
+  },
+  {
+    "company": "Value Team",
+    "companyDescription": "System Integrator with customers in a broad set of industries, from media to communications, from banking to government.",
+    "title": "Senior Software Engineer",
+    "startYear": "2008",
+    "endYear": "2011",
+    "jobDescription": "In addition to project-based work, I focus on Developer Experience. From creating and maintaining simple Ant/Bash scripts for build and deployment, to custom Eclipse plugins to manage Ivy and Savant repository dependencies, as well as monitoring remote logs."
+  },
+  {
+    "company": "Marktplaats",
+    "title": "Senior Front-end Engineer",
+    "startYear": "2011",
+    "endYear": "2014"
+  },
+  {
+    "company": "Skyscanner",
+    "title": "Senior Software Engineer",
+    "startYear": "2015",
+    "endYear": "2017"
+  },
+  {
+    "company": "Skyscanner",
+    "title": "Engineering Manager",
+    "startYear": "2015",
+    "endYear": "2017"
+  },
+  {
+    "company": "Skyscanner",
+    "title": "Senior Software Engineer",
+    "startYear": "2018",
+    "endYear": "2021"
+  },
+  {
+    "company": "Pave",
+    "title": "Senior Software Engineer",
+    "startYear": "2021",
+    "endYear": "2022"
+  },
+  {
+    "company": "Codility",
+    "title": "Senior Software Engineer",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "company": "Career Break",
+    "title": "",
+    "startYear": "2023",
+    "endYear": ""
+  }
+]
