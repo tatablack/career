@@ -116,16 +116,16 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
     if (job.title) {
       return (
         <div>
-          <div className="font-bold text-orange-400 text-sm">
+          <div className="font-bold text-orange-400 text-xs">
             {job.title}
           </div>
-          <div className="text-lg text-gray-300 mt-2.5">
+          <div className="text-sm text-gray-300 mt-1">
             {job.company}
           </div>
         </div>
       );
     }
-    return <div className="text-lg text-gray-300">{job.company}</div>;
+    return <div className="text-sm text-gray-300">{job.company}</div>;
   };
 
   const getJobYearRange = (job: Job): string => {
@@ -142,20 +142,20 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
   const renderGroupedJobs = (jobs: Job[], year: number) => {
     return (
       <div 
-        className={`inline-block min-w-72 bg-gradient-to-l ${
+        className={`inline-block min-w-36 bg-gradient-to-l ${
           currentYear >= parseInt(jobs[0].startYear) && currentYear <= parseInt(jobs[0].endYear) 
             ? 'from-blue-600 to-blue-700 shadow-lg shadow-blue-500/30' 
             : 'from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600'
-        } rounded-lg p-4 border border-gray-600 transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-xl`}
+        } rounded-lg p-2 border border-gray-600 transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-xl`}
         onClick={() => handleJobClick(jobs[0])}
       >
-        <div className="flex items-center space-x-2 mb-2">
-          <Briefcase className="w-5 h-5 text-blue-400" />
-          <div className="text-lg font-bold text-white">{getJobYearRange(jobs[0])}</div>
+        <div className="flex items-center space-x-1 mb-1">
+          <Briefcase className="w-3 h-3 text-blue-400" />
+          <div className="text-sm font-bold text-white">{getJobYearRange(jobs[0])}</div>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-1">
           {jobs.map((job, index) => (
-            <div key={index} className={index > 0 ? "pt-3 border-t border-gray-600" : ""}>
+            <div key={index} className={index > 0 ? "pt-1 border-t border-gray-600" : ""}>
               {renderJobText(job)}
             </div>
           ))}
@@ -166,21 +166,21 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
   const renderSeparateJobs = (jobs: Job[], year: number) => {
     return (
-      <div className="flex flex-col space-y-3 min-w-72">
+      <div className="flex flex-col space-y-1 min-w-36">
         {jobs.map((job, index) => {
           return (
             <div 
               key={index} 
-              className={`w-full bg-gradient-to-l ${
+              className={`bg-gradient-to-l ${
                 currentYear >= parseInt(job.startYear) && currentYear <= parseInt(job.endYear) 
                   ? 'from-blue-600 to-blue-700 shadow-lg shadow-blue-500/30' 
                   : 'from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600'
-              } rounded-lg p-4 border border-gray-600 transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-xl`}
+              } rounded-lg p-2 border border-gray-600 transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-xl`}
               onClick={() => handleJobClick(job)}
             >
-              <div className="flex items-center space-x-2 mb-2">
-                <Briefcase className="w-5 h-5 text-blue-400" />
-                <div className="text-lg font-bold text-white">{getJobYearRange(job)}</div>
+              <div className="flex items-center space-x-1 mb-1">
+                <Briefcase className="w-3 h-3 text-blue-400" />
+                <div className="text-sm font-bold text-white">{getJobYearRange(job)}</div>
               </div>
               <div>
                 {renderJobText(job)}
@@ -323,8 +323,8 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
                 {/* Job Milestones - Right Side */}
                 {jobMilestones.length > 0 && (
-                  <div className="ml-auto pl-2">
-                    <div className="text-left space-y-3">
+                  <div className="pl-2">
+                    <div className="text-left space-y-1">
                       {/* Render jobs with same end year in a single box */}
                       {sameEndYear.length > 0 && renderGroupedJobs(sameEndYear, year)}
                       
