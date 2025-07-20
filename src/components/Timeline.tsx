@@ -128,7 +128,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
   return (
     <>
-      <div className="relative min-h-screen flex pt-20 pb-32">
+      <div className="relative min-h-screen flex">
         {/* Timeline Header */}
         <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-30 bg-black/90 backdrop-blur-sm rounded-lg p-4 border border-gray-700 shadow-2xl">
           <div className="flex items-center space-x-3">
