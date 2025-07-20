@@ -65,7 +65,8 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
   };
 
   const hasLocationMilestone = (year: number): boolean => {
-    return locations.hasOwnProperty(year.toString());
+    return false;
+    //return locations.hasOwnProperty(year.toString());
   };
 
   const getJobMilestones = (year: number): Job[] => {
