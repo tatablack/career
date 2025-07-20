@@ -323,7 +323,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
                 {/* Job Milestones - Right Side */}
                 {jobMilestones.length > 0 && (
-                  <div className="ml-auto pl-8 flex-1">
+                  <div className="ml-auto pl-8 ">
                     <div className="text-left space-y-3">
                       {/* Render jobs with same end year in a single box */}
                       {sameEndYear.length > 0 && renderGroupedJobs(sameEndYear, year)}
