@@ -143,7 +143,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
         {/* Left Side - Timeline with Decades */}
         <div className="w-80 flex-shrink-0 pl-8 pr-8">
-          <div className="relative h-[calc(100vh-12rem)] flex flex-col">
+          <div className="relative h-screen flex flex-col">
             {/* Timeline Line */}
             <div className="absolute left-16 top-0 bottom-0 w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80"></div>
 
