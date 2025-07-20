@@ -275,10 +275,10 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
         </div>
 
         {/* Timeline Line */}
-        <div id="timeline" className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80" style={{ top: "7.8rem", height: getTimelineHeight() }}></div>
+        <div id="timeline" className="absolute left-64 w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80" style={{ top: "7.8rem", height: getTimelineHeight() }}></div>
 
         {/* Timeline Items */}
-        <div className="relative w-full max-w-6xl mx-auto px-8">
+        <div className="relative w-full max-w-6xl pl-8">
           {years.map((year, index) => {
             const jobMilestones = getJobMilestones(year);
             const { sameEndYear, differentEndYear } = groupJobsByDuration(jobMilestones);
@@ -291,7 +291,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
                 style={{ minHeight: `${yearSpanMinHeight}px` }}
               >
                 {/* Year Node */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+                <div className="absolute left-64 transform -translate-x-1/2 -translate-y-1/2 z-20">
                   <div id={yearId} className={`w-6 h-6 rounded-full border-4 transition-all duration-300 ${
                     year === currentYear
                       ? 'bg-orange-500 border-orange-400 shadow-lg shadow-orange-500/50 scale-125'
@@ -301,7 +301,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
                 {/* Location Milestones - Left Side */}
                 {hasLocationMilestone(year) && (
-                  <div className="mr-auto pr-8 w-5/12">
+                  <div className="mr-auto pr-8 w-60">
                     <div className="text-right">
                       <div className={`inline-block bg-gradient-to-r ${
                         year === currentYear 
@@ -322,7 +322,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
 
                 {/* Job Milestones - Right Side */}
                 {jobMilestones.length > 0 && (
-                  <div className="ml-auto pl-8 w-5/12">
+                  <div className="ml-auto pl-8 flex-1 max-w-2xl">
                     <div className="text-left space-y-3">
                       {/* Render jobs with same end year in a single box */}
                       {sameEndYear.length > 0 && renderGroupedJobs(sameEndYear, year)}

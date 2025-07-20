@@ -6,7 +6,7 @@ import TechTreePanel from './components/TechTreePanel';
 
 function App() {
   const [currentYear, setCurrentYear] = useState<number>(2024);
-  const [isTechTreeVisible, setIsTechTreeVisible] = useState<boolean>(true);
+  const [isTechTreeVisible, setIsTechTreeVisible] = useState<boolean>(false);
   const [isMinimapVisible, setIsMinimapVisible] = useState<boolean>(true);
 
   const handleYearChange = (year: number) => {
