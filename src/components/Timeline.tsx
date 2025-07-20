@@ -292,7 +292,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
                 style={{ minHeight: `${yearSpanMinHeight}px` }}
               >
                 {/* Year Node */}
-                <div className="absolute left-18 transform -translate-x-1/2 -translate-y-1/2 z-20">
+                <div className="absolute left-16 transform -translate-x-1/2 -translate-y-1/2 z-20">
                   <div id={yearId} className={`w-6 h-6 rounded-full border-4 transition-all duration-300 ${
                     year === currentYear
                       ? 'bg-orange-500 border-orange-400 shadow-lg shadow-orange-500/50 scale-125'
