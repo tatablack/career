@@ -117,9 +117,9 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
         </div>
 
         {/* Left Side - Timeline with Decades */}
-        <div className="w-64 flex flex-col items-center pt-40 pb-20">
+        <div className="w-64 flex flex-col items-center">
           {/* Timeline Line */}
-          <div className="relative w-1 h-96 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80">
+          <div className="relative w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80">
             {/* Decade Rectangles */}
             {decades.map((decade, index) => (
               <div
