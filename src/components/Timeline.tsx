@@ -276,7 +276,7 @@ const Timeline: React.FC<TimelineProps> = ({ onYearChange }) => {
         </div>
 
         {/* Timeline Line */}
-        <div id="timeline" className="absolute left-16 w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80" style={{ top: "7.8rem", height: getTimelineHeight() }}></div>
+        <div id="timeline" className="absolute left-24 w-1 bg-gradient-to-b from-silver-400 via-orange-200 to-orange-500 opacity-80" style={{ top: "7.8rem", height: getTimelineHeight() }}></div>
 
         {/* Timeline Items */}
         <div className="relative w-full max-w-6xl pl-8">
